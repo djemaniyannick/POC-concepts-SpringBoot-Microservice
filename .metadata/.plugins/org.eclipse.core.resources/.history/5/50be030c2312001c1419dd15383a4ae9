@@ -1,0 +1,8 @@
+package com.codeimmig.yannick.consummer;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class ContractRestConsumer {
+
+}

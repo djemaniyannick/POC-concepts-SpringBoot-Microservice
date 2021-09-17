@@ -1,0 +1,20 @@
+<html xmlns:th="https://www.thymeleaf.org/">
+<body>
+<form th:action="@{/employee/update}" method="POST" 
+	th:object="${employee}">
+<pre>
+ID  : <input type="text" th:field="*{empId}" readonly/>
+NAME: <input type="text" th:field="*{empName}"/>
+SAL : <input type="text" th:field="*{empSal}"/>
+
+DEPT: <select th:field="*{empDept}">
+		<option value="">-SELECT-</option>
+		<option th:each="ob:${deptData}" 
+		   th:value="${ob.key}" th:text="${ob.value}"/>
+      </select> 
+      
+	<button type="submit">Update</button>
+</pre>
+</form>
+</body>
+</html>

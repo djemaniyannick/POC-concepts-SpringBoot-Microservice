@@ -1,0 +1,5 @@
+package com.codeimmig.yannick.consummer.OrderRestConsummer;
+
+public class CustomerRestController {
+
+}

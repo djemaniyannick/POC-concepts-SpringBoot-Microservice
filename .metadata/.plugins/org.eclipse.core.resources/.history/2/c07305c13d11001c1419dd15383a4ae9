@@ -1,0 +1,14 @@
+package com.codeimmig.yannick.consummer;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.stereotype.Component;
+
+@Component
+public class OrderRestConsummer {
+	//1.Autowired DC
+	@Autowired
+	private DiscoveryClient client;
+	
+
+}

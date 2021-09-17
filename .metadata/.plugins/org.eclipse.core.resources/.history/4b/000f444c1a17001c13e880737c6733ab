@@ -1,0 +1,19 @@
+package com.codeimmig.yannick.runner;
+
+import java.util.Date;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+
+import com.codeimmig.yannick.sertvice.ProducerService;
+
+public class TestProducer implements CommandLineRunner{
+	@Autowired
+	private ProducerService service;
+	@Override
+	public void run(String... args) throws Exception {
+		System.out.println("DATA IS SENDING");
+		service.sendMessage("HELLO" +new Date());
+	}
+
+}

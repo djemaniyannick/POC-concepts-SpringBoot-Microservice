@@ -1,0 +1,5 @@
+package com.codeimmig.yannick.rest;
+
+public class OrderRestController {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.codeimmig.yannick.repository.IEmployeeRepo&apos; to &apos;EmployeeRepository&apos;&#x0D;&#x0A;- Original project: &apos;SpringBoot2WebMvcMySQLCrudEx&apos;&#x0D;&#x0A;- Original element: &apos;com.codeimmig.yannick.repository.IEmployeeRepo&apos;&#x0D;&#x0A;- Renamed element: &apos;com.codeimmig.yannick.repository.EmployeeRepository&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IEmployeeRepo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.codeimmig.yannick.repository{IEmployeeRepo.java[IEmployeeRepo" matchStrategy="1" name="EmployeeRepository" qualified="false" references="true" similarDeclarations="false" stamp="1629452666269" textual="false" version="1.0"/>
+</session>
